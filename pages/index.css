@@ -1,0 +1,29 @@
+/*delete*/
+@import url(../blocks/index.css);
+
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+/*Структура для блоков*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/search/search.css);
+
+/*Структура для элементов*/
+@import url(../blocks/search/__btn-catalog/search__btn-catalog.css);
+@import url(../blocks/search/__btn-icon/search__btn-icon.css);
+@import url(../blocks/search/__btn-resize/search__btn-resize.css);
+@import url(../blocks/search/__btn/search__btn.css);
+@import url(../blocks/search/__burger-line/search__burger-line.css);
+@import url(../blocks/search/__burger/search__burger.css);
+@import url(../blocks/search/__buttons/search__buttons.css);
+@import url(../blocks/search/__contacts-phone/search__contacts-phone.css);
+@import url(../blocks/search/__contacts-text/search__contacts-text.css);
+@import url(../blocks/search/__contacts/search__contacts.css);
+@import url(../blocks/search/__form-input/search__form-input.css);
+@import url(../blocks/search/__form/search__form.css);
+@import url(../blocks/search/__icon/search__icon.css);
+@import url(../blocks/search/__text/search__text.css);
+
+/*Структура для модификаторов*/
+@import url(../blocks/search/__burger-line/_black/search__burger-line_black.css);
+@import url(../blocks/search/__burger-line/_white/search__burger-line_white.css);

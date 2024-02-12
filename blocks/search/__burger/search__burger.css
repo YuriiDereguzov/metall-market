@@ -1,0 +1,9 @@
+.search__burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  gap: 6px;
+  justify-content: center;
+}

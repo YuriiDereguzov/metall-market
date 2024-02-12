@@ -1,0 +1,8 @@
+.search__btn {
+  /* background: none; */
+  /* padding: 0; */
+  /* display: flex; */
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}

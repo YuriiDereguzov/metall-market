@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css">
+    <title></title>
+</head>
+
+<body class="page">
+    <main class="main">
+        <section aria-label="search" class="search" onClick={handleOpenMenu}>
+            <button class="search__btn search__btn-catalog">
+                <div class="search__burger">
+                    <div class="search__burger-line search__burger-line_white"></div>
+                    <div class="search__burger-line search__burger-line_white"></div>
+                    <div class="search__burger-line search__burger-line_white"></div>
+                </div>
+                <p class="search__text">Каталог</p>
+            </button>
+            <form class="search__form">
+                <button class="search__btn search__btn-resize">
+                    <img class="search__resize-img" src="images/search-icon.svg" alt="Значок лупы" />
+                </button>
+                <input type="text" class="search__form-input" name="search-input" id="search-input"
+                    placeholder="Поиск..." />
+            </form>
+            <div class="search__contacts">
+                <button class="search__btn search__btn-icon">
+                    <img src="images/phone-icon.svg" alt="Телефонный значок" class="search__icon">
+                </button>
+                <div class="search__contacts-container">
+                    <span class="search__contacts-phone">8-800-000-00-00</span>
+                    <p class="search__contacts-text">Заказать звонок</p>
+                </div>
+            </div>
+            <div class="search__buttons">
+                <button class="search__btn search__btn-icon">
+                    <img src="images/favourites-icon.svg" alt="Иконка избранного" class="search__icon">
+                </button>
+                <button class="search__btn search__btn-icon">
+                    <img src="images/basket-icon.svg" alt="Иконка корзины" class="search__icon">
+                </button>
+                <button class="search__btn search__btn-icon search__btn-menu">
+                    <div class="search__burger">
+                        <div class="search__burger-line search__burger-line_black"></div>
+                        <div class="search__burger-line search__burger-line_black"></div>
+                        <div class="search__burger-line search__burger-line_black"></div>
+                    </div>
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
