@@ -1,0 +1,8 @@
+.contacts__container-btn {
+  margin-left: auto;
+  padding: 0;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background: #ffffff;
+  width: 56px;
+  cursor: pointer;
+}

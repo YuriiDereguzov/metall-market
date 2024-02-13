@@ -1,0 +1,12 @@
+.contacts__overlay {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  top: 15%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 32px;
+  min-width: 500px;
+  box-sizing: border-box;
+}

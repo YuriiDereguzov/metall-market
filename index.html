@@ -10,7 +10,7 @@
 
 <body class="page">
     <main class="main">
-        <section aria-label="search" class="search" onClick={handleOpenMenu}>
+        <section ria-label="search" class="search">
             <button class="search__btn search__btn-catalog">
                 <div class="search__burger">
                     <div class="search__burger-line search__burger-line_white"></div>
@@ -42,13 +42,124 @@
                 <button class="search__btn search__btn-icon">
                     <img src="images/basket-icon.svg" alt="Иконка корзины" class="search__icon">
                 </button>
-                <button class="search__btn search__btn-icon search__btn-menu">
+                <button class="search__btn search__btn-icon search__btn-navigation">
                     <div class="search__burger">
                         <div class="search__burger-line search__burger-line_black"></div>
                         <div class="search__burger-line search__burger-line_black"></div>
                         <div class="search__burger-line search__burger-line_black"></div>
                     </div>
                 </button>
+            </div>
+        </section>
+
+        <section aria-label="navigation" class="navigation">
+            <ul class="navigation__links">
+                <li class="navigation__link">
+                    <img src="images/discount-icon.svg" alt="Иконка процентов" class="navigation__icon">
+                    Скидки
+                </li>
+                <li class="navigation__link">
+                    Арматура
+                </li>
+                <li class="navigation__link">
+                    Костыль
+                </li>
+                <li class="navigation__link">
+                    Отвод
+                </li>
+                <li class="navigation__link">
+                    Рулон
+                </li>
+                <li class="navigation__link">
+                    Трубка квадратная
+                </li>
+                <li class="navigation__link">
+                    Шайба
+                </li>
+                <li class="navigation__link">
+                    Штрипс
+                </li>
+                <li class="navigation__link">
+                    Круг
+                </li>
+                <li class="navigation__link">
+                    Подкладка
+                </li>
+                <li class="navigation__link">
+                    Сетка
+                </li>
+                <li class="navigation__link">
+                    Трубка квадратная
+                </li>
+                <li class="navigation__link">
+                    Еще что-то
+                </li>
+            </ul>
+        </section>
+        <section class="links">
+            <p class="links__item">Главная</p>
+            <p class="links__item">—</p>
+            <p class="links__item links__item_active">Контакты</p>
+        </section>
+        <section aria-label="contacts" class="contacts">
+            <h1 class="contacts__title">Контакты</h1>
+            <div class="contacts__map">
+                <iframe class="contacts__map-img"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aadf4641be518c136bd1f456a0748dc06cb416b9e288a60cc132614fcdef08c35&amp;source=constructor"
+                    width="100%" height="696" frameborder="0"></iframe>
+                <!-- <img src="images/map.jpg" alt="Карта с адресом офиса" class="contacts__map-img"> -->
+                <div class="contacts__overlay">
+                    <img src="images/info-icon.svg" alt="Иконка инфо" class="contacts__overlay-icon">
+                    <p class="contacts__overlay-text">Вход в офис находится на углу здания со стороны Ленинградского
+                        проспекта на пересечении с ул. Балтийская.</p>
+                </div>
+            </div>
+            <div class="contacts__list">
+                <h2 class="contacts__list-title">Контакты</h2>
+                <div class="contacts__items">
+                    <div class="contacts__container">
+                        <h3 class="contacts__container-title">8-900-000-00-00</h3>
+                        <p class="contacts__container-subtitle">Москва</p>
+                    </div>
+                    <div class="contacts__container">
+                        <h3 class="contacts__container-title">8-900-000-00-00</h3>
+                        <p class="contacts__container-subtitle">Россия</p>
+                    </div>
+                    <button class="contacts__container-btn">
+                        <img src="images/copy-icon.svg" alt="Иконка копирования" class="contacts__copy-icon">
+                    </button>
+                </div>
+                <div class="contacts__items">
+                    <div class="contacts__container">
+                        <h3 class="contacts__container-title">metall-market@mail.ru</h3>
+                        <p class="contacts__container-subtitle">Ежедневно 9:00 — 18:00</p>
+                    </div>
+                    <button class="contacts__container-btn">
+                        <img src="images/copy-icon.svg" alt="Иконка копирования" class="contacts__copy-icon">
+                    </button>
+                </div>
+                <div class="contacts__items">
+                    <div class="contacts__container">
+                        <h3 class="contacts__container-title">Адрес</h3>
+                        <p class="contacts__container-subtitle">123456, г. Москва, ул. Ленина 3А, помещ. 2-7</p>
+                    </div>
+                </div>
+                <div class="contacts__items">
+                    <div class="contacts__container">
+                        <h3 class="contacts__container-title">Время работы</h3>
+                        <p class="contacts__container-subtitle">Ежедневно 9:00 — 18:00</p>
+                    </div>
+                </div>
+                <div class="contacts__buttons">
+                    <button class="contacts__btn contacts__btn_grey">
+                        <img src="images/download-icon.svg" alt="Знак скачать" class="contacts__icon">
+                        <p class="contacts__btn-text contacts__btn-text_green">Карта проезда</p>
+                    </button>
+                    <button class="contacts__btn contacts__btn_green">
+                        <img src="images/phone2-icon.svg" alt="Телефонный значок" class="contacts__icon">
+                        <p class="contacts__btn-text contacts__btn-text_white">Заказать звонок</p>
+                    </button>
+                </div>
             </div>
         </section>
     </main>
