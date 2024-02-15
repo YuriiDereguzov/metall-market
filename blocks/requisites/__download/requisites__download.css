@@ -1,0 +1,7 @@
+.requisites__download {
+  display: flex;
+  gap: 24px;
+  padding: 24px 62px 24px 24px;
+  background-color: #fafafa;
+  margin-bottom: -40px;
+}

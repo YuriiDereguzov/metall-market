@@ -1,0 +1,6 @@
+.requisites__line:hover {
+  background-color: #fafafa;
+  background-image: url(../../../images/copy-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
