@@ -1,0 +1,8 @@
+.photo-grid__items {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
+  overflow: hidden;
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: green transparent; */
+}

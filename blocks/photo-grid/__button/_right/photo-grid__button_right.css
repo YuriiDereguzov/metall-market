@@ -1,0 +1,5 @@
+.photo-grid__button_right {
+  background-image: url(../../../../images/scroll-r.svg);
+  margin-left: 16px;
+  border: 1px solid rgba(0, 165, 90, 1);
+}

@@ -1,0 +1,6 @@
+.team__cards {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
+  overflow: hidden;
+}

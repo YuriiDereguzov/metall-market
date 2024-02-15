@@ -10,11 +10,11 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/links/links.css);
 @import url(../blocks/contacts/contacts.css);
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/team/team.css);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
 
 /*Структура для элементов*/
 @import url(../blocks/search/__btn-catalog/search__btn-catalog.css);
@@ -54,11 +54,28 @@
 @import url(../blocks/contacts/__overlay/contacts__overlay.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/_buttons/contacts__buttons.css);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+
+@import url(../blocks/photo-grid/__button/photo-grid__button.css);
+@import url(../blocks/photo-grid/__buttons/photo-grid__buttons.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
+@import url(../blocks/photo-grid/__scroll-thumb/photo-grid__scroll-thumb.css);
+@import url(../blocks/photo-grid/__scroll/photo-grid__scroll.css);
+
+@import url(../blocks/team/__card-info/team__card-info.css);
+@import url(../blocks/team/__card-photo/team__card-photo.css);
+@import url(../blocks/team/__card-position/team__card-position.css);
+@import url(../blocks/team/__card-user/team__card-user.css);
+@import url(../blocks/team/__card/team__card.css);
+@import url(../blocks/team/__cards/team__cards.css);
+@import url(../blocks/team/__container/team__container.css);
+@import url(../blocks/team/__subtitle/team__subtitle.css);
+@import url(../blocks/team/__title/team__title.css);
+
+@import url(../blocks);
+@import url(../blocks);
+@import url(../blocks);
 
 /*Структура для модификаторов*/
 @import url(../blocks/search/__burger-line/_black/search__burger-line_black.css);
@@ -70,3 +87,13 @@
 @import url(../blocks/contacts/__btn-text/_white/contacts__btn-text_white.css);
 @import url(../blocks/contacts/__btn/_green/contacts__btn_green.css);
 @import url(../blocks/contacts/__btn/_grey/contacts__btn_grey.css);
+
+@import url(../blocks/photo-grid/__button/_left/photo-grid__button_left.css);
+@import url(../blocks/photo-grid/__button/_right/photo-grid__button_right.css);
+
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+
