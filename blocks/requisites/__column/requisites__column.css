@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .requisites__column {
     border: none;
     border-bottom: 1px solid rgba(217, 217, 217, 1);
