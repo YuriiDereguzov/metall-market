@@ -1,5 +1,20 @@
 .contacts__buttons {
   display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
+  /* justify-content: space-between; */
+  margin-top: 96px;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts__buttons {
+    margin: 71px 0 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__buttons {
+    display: block;
+    margin: 0;
+  }
 }

@@ -4,3 +4,17 @@
   font-size: 56px;
   line-height: 68px;
 }
+
+@media screen and (max-width: 768px) {
+  .requisites__title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .requisites__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

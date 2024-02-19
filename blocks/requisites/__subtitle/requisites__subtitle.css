@@ -1,0 +1,15 @@
+.requisites__subtitle {
+  max-width: 66%;
+}
+
+@media screen and (max-width: 1440px) {
+  .requisites__subtitle {
+    max-width: 59%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .requisites__subtitle {
+    max-width: 100%;
+  }
+}

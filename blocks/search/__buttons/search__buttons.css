@@ -2,3 +2,9 @@
   display: flex;
   gap: 16px;
 }
+
+@media screen and (max-width: 500px) {
+  .search__buttons {
+    gap: 5px;
+  }
+}

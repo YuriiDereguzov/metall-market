@@ -1,3 +1,17 @@
 .team__card-photo {
   padding: 40px 46px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .team__card-photo {
+    padding: 43px 30px 0;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team__card-photo {
+    padding: 30px 14px 0;
+    height: 366px;
+  }
+}

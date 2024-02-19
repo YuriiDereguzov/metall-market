@@ -4,3 +4,9 @@
   gap: 12px;
   padding: 16px 32px;
 }
+
+@media screen and (max-width: 920px) {
+  .search__btn-catalog {
+    display: none;
+  }
+}

@@ -2,3 +2,10 @@
   padding: 16px;
   background-color: #f2f2f2;
 }
+
+@media screen and (max-width: 500px) {
+  .search__btn-icon {
+    background: none;
+    padding: 10px 7px;
+  }
+}

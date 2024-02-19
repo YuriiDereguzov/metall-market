@@ -4,3 +4,9 @@
   background-repeat: no-repeat;
   background-position: 95%;
 }
+
+@media screen and (max-width: 500px) {
+  .requisites__line:hover {
+    background-image: none;
+  }
+}

@@ -1,0 +1,22 @@
+.photo-grid__item {
+  width: 552px;
+  height: 396px;
+}
+
+@media screen and (max-width: 1440px) {
+  .photo-grid__item {
+    width: 416px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .photo-grid__item {
+    width: 552px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .photo-grid__item {
+    height: 252px;
+  }
+}

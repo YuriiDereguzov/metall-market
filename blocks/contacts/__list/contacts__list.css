@@ -1,10 +1,23 @@
 .contacts__list {
   position: absolute;
-  top: 80%;
-  left: 27%;
-  transform: translate(-50%, -50%);
+  top: 8%;
+  left: 3%;
+  /* transform: translate(-50%, -50%); */
   background-color: #ffffff;
   padding: 56px;
   height: 616px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts__list {
+    position: static;
+    padding: 56px 0 25px 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__list {
+    padding: 16px;
+  }
 }

@@ -4,3 +4,11 @@
   margin-bottom: 24px;
   gap: 32px;
 }
+
+@media screen and (max-width: 500px) {
+  .contacts__items {
+    /* min-width: 345px; */
+    min-width: auto;
+    align-items: end;
+  }
+}

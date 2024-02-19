@@ -5,3 +5,11 @@
   line-height: 24px;
   color: #28282899;
 }
+
+@media screen and (max-width: 500px) {
+  .links__item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

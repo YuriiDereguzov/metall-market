@@ -1,0 +1,9 @@
+.search__btn-search {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .search__btn-search {
+    display: block;
+  }
+}

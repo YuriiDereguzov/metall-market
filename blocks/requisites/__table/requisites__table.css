@@ -1,5 +1,12 @@
 .requisites__table {
   margin: 56px 0 0;
-  width: 100%;
+  /* width: 100%; */
+  width: 66%;
   border-collapse: collapse;
+}
+
+@media screen and (max-width: 1440px) {
+  .requisites__table {
+    width: 100%;
+  }
 }

@@ -2,3 +2,16 @@
   /* margin-bottom: 124px; */
   margin-bottom: 115px;
 }
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts {
+    margin-bottom: 25px;
+  }
+}
+

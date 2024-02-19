@@ -5,3 +5,16 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__btn {
+    width: 40%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__btn {
+    width: 100%;
+  }
+}

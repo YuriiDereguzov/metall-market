@@ -4,3 +4,9 @@
   height: 8px;
   background-color: #f2f2f2;
 }
+
+@media screen and (max-width: 1140px) {
+  .photo-grid__scroll {
+    width: 100%;
+  }
+}

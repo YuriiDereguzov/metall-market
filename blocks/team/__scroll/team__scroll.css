@@ -1,0 +1,16 @@
+.team__scroll {
+  margin-top: 40px;
+  display: none;
+}
+@media screen and (max-width: 1140px) {
+  .team__scroll {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team__scroll {
+    margin-top: 17px;
+  }
+}
+

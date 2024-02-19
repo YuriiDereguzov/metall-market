@@ -1,9 +1,10 @@
 .search__form-input {
   margin: 0;
   padding: 0 2px;
-  min-width: 478px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   border: none;
+  
+  width: 95%;
 }

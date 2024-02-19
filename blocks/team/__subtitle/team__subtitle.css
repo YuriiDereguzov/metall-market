@@ -5,3 +5,17 @@
   font-size: 18px;
   line-height: 28px;
 }
+
+@media screen and (max-width: 1140px) {
+  .team__subtitle {
+    max-width: 696px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0 41px;
+  }
+}

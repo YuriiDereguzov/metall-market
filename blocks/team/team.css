@@ -2,3 +2,15 @@
   /* margin: 124px auto; */
   margin: 115px auto;
 }
+
+@media screen and (max-width: 1140px) {
+  .team {
+    margin: 115px auto 98px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team {
+    margin: 52px auto 62px;
+  }
+}

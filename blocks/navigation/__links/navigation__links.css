@@ -6,9 +6,10 @@
   padding: 0;
   margin: 0;
   gap: 32px;
-  overflow-x: auto;
+  /* overflow-x: auto; */
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
 }
-.navigation__links::-webkit-scrollbar {
+/* .navigation__links::-webkit-scrollbar {
   width: 0;
-}
+} */

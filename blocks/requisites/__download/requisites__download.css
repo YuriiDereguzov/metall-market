@@ -4,4 +4,18 @@
   padding: 24px 62px 24px 24px;
   background-color: #fafafa;
   margin-bottom: -40px;
+
+  width: 20%;
+}
+
+@media screen and (max-width: 1440px) {
+  .requisites__download {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .requisites__download {
+    width: auto;
+  }
 }

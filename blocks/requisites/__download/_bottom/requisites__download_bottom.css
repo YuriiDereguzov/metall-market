@@ -1,0 +1,10 @@
+.requisites__download_bottom {
+  margin-top: 40px;
+  display: none;
+}
+
+@media screen and (max-width: 1140px) {
+  .requisites__download_bottom {
+    display: flex;
+  }
+}

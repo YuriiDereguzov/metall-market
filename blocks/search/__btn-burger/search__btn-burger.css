@@ -1,0 +1,9 @@
+.search__btn-burger {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .search__btn-burger {
+        display: block;
+    }
+}

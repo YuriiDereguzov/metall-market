@@ -1,0 +1,22 @@
+.contacts__map-img {
+  width: 100%;
+  height: 736px;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts__map-img {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__map-img {
+    height: 384px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__map-img {
+    height: 280px;
+  }
+}
