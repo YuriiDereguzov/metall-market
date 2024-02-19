@@ -5,7 +5,7 @@
   gap: 32px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .contacts__items {
     /* min-width: 345px; */
     min-width: auto;

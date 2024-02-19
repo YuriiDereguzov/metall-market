@@ -3,7 +3,7 @@
   gap: 32px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .contacts__numbers {
     flex-direction: column;
     gap: 16px;

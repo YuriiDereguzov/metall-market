@@ -2,7 +2,7 @@
   background-color: #00a55a;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .contacts__btn_green {
     margin-top: 16px;
   }
